@@ -33,14 +33,14 @@
                 </button>
                 <ul class="dropdown-menu pull-right" style="font-size: 13px">
                     <li style="border-bottom: 1px solid #444">
-                    <span class="title" style="color: #fff; font-weight: 300; font-size: 13px;">Join Us On Live Chat!</span>
+                    <span class="title" style="color: #fff; font-weight: 300; font-size: 13px;"><?php echo T('JOIN_US_TXT'); ?></span>
                     </li>
                     <li>
-                    <span style="padding: 6px 10px; color:#fff"><strong style="color: #4CD4B0">host:</strong> Chat.QuickBox.io</span><br/>
-                    <span style="padding: 6px 10px; color:#fff"><strong style="color: #4CD4B0">chan:</strong> #QuickBox.io</span><br/>
+                    <span style="padding: 6px 10px; color:#fff"><strong style="color: #4CD4B0">host:</strong> gitter.im/QuickBox</span><br/>
+                    <span style="padding: 6px 10px; color:#fff"><strong style="color: #4CD4B0">chan:</strong> #Support</span><br/>
                     </li>
                     <li style="border-top: 1px solid #444">
-                      <span class="chat-btn"><a href="https://chat.quickbox.io" class="label label-success" target="_blank">Click to connect</a></span>
+                      <span class="chat-btn"><a href="https://gitter.im/QuickBox/Support" class="label label-success" target="_blank"><?php echo T('CHAT_CONNECT_TXT'); ?></a></span>
                     </li>
                 </ul>
               </div>
