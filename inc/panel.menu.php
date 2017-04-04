@@ -33,14 +33,14 @@
                 </button>
                 <ul class="dropdown-menu pull-right" style="font-size: 13px">
                     <li style="border-bottom: 1px solid #444">
-                    <span class="title" style="color: #fff; font-weight: 300; font-size: 13px;">Join Us On Live Chat!</span>
+                    <span class="title" style="color: #fff; font-weight: 300; font-size: 13px;"><?php echo T('JOIN_US_TXT'); ?></span>
                     </li>
                     <li>
-                    <span style="padding: 6px 10px; color:#fff"><strong style="color: #4CD4B0">host:</strong> Chat.QuickBox.io</span><br/>
-                    <span style="padding: 6px 10px; color:#fff"><strong style="color: #4CD4B0">chan:</strong> #QuickBox.io</span><br/>
+                    <span style="padding: 6px 10px; color:#fff"><strong style="color: #4CD4B0">host:</strong> gitter.im/QuickBox</span><br/>
+                    <span style="padding: 6px 10px; color:#fff"><strong style="color: #4CD4B0">chan:</strong> #Support</span><br/>
                     </li>
                     <li style="border-top: 1px solid #444">
-                      <span class="chat-btn"><a href="https://chat.quickbox.io" class="label label-success" target="_blank">Click to connect</a></span>
+                      <span class="chat-btn"><a href="https://gitter.im/QuickBox/Support" class="label label-success" target="_blank"><?php echo T('CHAT_CONNECT_TXT'); ?></a></span>
                     </li>
                 </ul>
               </div>
@@ -130,8 +130,8 @@
               <?php if (file_exists("/install/.plexpy.lock")) { ?>
                 <li><a class="grayscale" href="<?php echo "$plexpyURL"; ?>" target="_blank"><img src="img/brands/plexpy.png" class="brand-ico"> <span>PlexPy</span></a></li>
               <?php } ?>
-              <?php if (file_exists("/install/.plexrequests.lock")) { ?>
-                <li><a class="grayscale" href="<?php echo "$plexrequestsURL"; ?>" target="_blank"><img src="img/brands/plexrequests-net.png" class="brand-ico"> <span>Plex Requests.NET</span></a></li>
+              <?php if (file_exists("/install/.ombi.lock")) { ?>
+                <li><a class="grayscale" href="<?php echo "$ombiURL"; ?>" target="_blank"><img src="img/brands/plexrequests-net.png" class="brand-ico"> <span>Ombi</span></a></li>
               <?php } ?>
               <?php if (file_exists('/install/.pyload.lock')) { ?>
                 <li><a class="grayscale" href="<?php echo "$pyloadURL"; ?>" target="_blank"><img src="img/brands/pyload.png" class="brand-ico"> <span>pyLoad</span></a></li>
